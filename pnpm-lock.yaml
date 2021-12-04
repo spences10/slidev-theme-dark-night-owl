@@ -1,11 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@slidev/cli': ^0.27.18
-  '@slidev/types': ^0.27.18
-  codemirror-theme-vars: ^0.1.1
-  prism-theme-vars: ^0.2.2
-  theme-vitesse: ^0.1.12
+  '@slidev/cli': 0.27.18
+  '@slidev/types': 0.27.18
+  codemirror-theme-vars: 0.1.1
+  prism-theme-vars: 0.2.2
+  theme-vitesse: 0.1.13
 
 dependencies:
   '@slidev/types': 0.27.18
