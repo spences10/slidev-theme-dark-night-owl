@@ -3,7 +3,6 @@
     <div class="my-auto">
       <slot />
     </div>
-    <LayoutFooter/>
+    <LayoutFooter />
   </div>
 </template>
-
