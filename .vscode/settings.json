@@ -1,0 +1,8 @@
+{
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "css.lint.unknownAtRules": "ignore",
+  "cSpell.words": ["slidev"],
+  "editor.formatOnSave": false
+  // "editor.formatOnSave": true
+}

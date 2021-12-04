@@ -1,0 +1,41 @@
+{
+  "name": "slidev-theme-dark-night-owl",
+  "version": "0.0.1",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "dark",
+    "night-owl"
+  ],
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.27.18",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.12"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.27.18"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "dark",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Inter",
+        "mono": ["Victor Mono", "Consolas", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace"]
+      },
+      "hightlighter": "prism"
+    }
+  }
+}

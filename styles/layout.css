@@ -1,0 +1,51 @@
+:root {
+  /* default theme color */
+  /* can be overridden by uses `themeConfig` option */
+  --slidev-theme-primary: #253889ff;
+  --slidev-theme-secondary: #f5487fff;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--slidev-theme-secondary) var(--slidev-theme-primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--slidev-theme-primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--slidev-theme-secondary);
+  border-radius: 14px;
+  border: 3px solid var(--slidev-theme-primary);
+}
+
+pre {
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20 font-bold;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
