@@ -1,10 +1,12 @@
+/* ./setup/shiki.ts */
 import { defineShikiSetup } from '@slidev/types'
+import nightOwl from './night-owl.json'
 
-export default defineShikiSetup(async({ loadTheme }) => {
+export default defineShikiSetup(() => {
   return {
     theme: {
-      dark: await loadTheme(require.resolve('theme-vitesse/themes/vitesse-dark.json')),
-      light: await loadTheme(require.resolve('theme-vitesse/themes/vitesse-light.json')),
+      dark: nightOwl,
+      light: 'min-light',
     },
   }
 })

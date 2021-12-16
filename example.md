@@ -1,5 +1,11 @@
 ---
 theme: ./
+highlighter: shiki
+title: Example
+fonts:
+  sans: Inter
+  serif: Inter
+  mono: 'Victor Mono'
 lineNumbers: true
 ---
 
