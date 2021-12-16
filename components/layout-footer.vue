@@ -2,11 +2,12 @@
   <footer>@spences10</footer>
 </template>
 
-<style>
+<style scoped>
 footer {
   font-size: 0.7rem;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 5px;
+  right: 5px;
+  opacity: 0.5;
 }
 </style>
