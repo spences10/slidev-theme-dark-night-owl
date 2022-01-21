@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@slidev/cli': 0.28.1
+  '@slidev/cli': 0.28.2
   '@slidev/types': 0.28.1
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.2
@@ -14,7 +14,7 @@ dependencies:
   theme-vitesse: 0.1.14
 
 devDependencies:
-  '@slidev/cli': 0.28.1
+  '@slidev/cli': 0.28.2
 
 packages:
 
@@ -108,14 +108,6 @@ packages:
       pako: 1.0.11
     dev: true
 
-  /@rollup/pluginutils/4.1.1:
-    resolution: {integrity: sha512-clDjivHqWGXi7u+0d2r2sBi4Ie6VLEAzWMIkvJLnDmxoOhBYOTfzGbOQBA32THHm11/LiJbd01tJUpJsbshSWQ==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      estree-walker: 2.0.2
-      picomatch: 2.3.0
-    dev: true
-
   /@rollup/pluginutils/4.1.2:
     resolution: {integrity: sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ==}
     engines: {node: '>= 8.0.0'}
@@ -124,8 +116,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@slidev/cli/0.28.1:
-    resolution: {integrity: sha512-CKSM6+i1sSCGQVBs8JQAaigP0F4fP1PYPlnAxi+h9i1PpuibE1/grdfIYFI71zrECs0MweMjHijJLhIl6rdX2g==}
+  /@slidev/cli/0.28.2:
+    resolution: {integrity: sha512-CePoEoEzHwW8At422XagcveAyxNjAwVWc2kDBCwnpsAVDuOD1qNW0Lj6OPiYARUh0cqFNO12gFdpG6G5zY2OYA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -137,9 +129,9 @@ packages:
       '@antfu/utils': 0.4.0
       '@iconify-json/carbon': 1.0.13
       '@iconify-json/ph': 1.0.4
-      '@slidev/client': 0.28.1_vite@2.7.12
-      '@slidev/parser': 0.28.1
-      '@slidev/types': 0.28.1
+      '@slidev/client': 0.28.2_vite@2.7.12
+      '@slidev/parser': 0.28.2
+      '@slidev/types': 0.28.2
       '@vitejs/plugin-vue': 2.0.1_vite@2.7.12+vue@3.2.26
       '@vue/compiler-sfc': 3.2.26
       cli-progress: 3.10.0
@@ -194,13 +186,13 @@ packages:
       - webpack
     dev: true
 
-  /@slidev/client/0.28.1_vite@2.7.12:
-    resolution: {integrity: sha512-irU2uUlD9RCbEAvOzO13WxxpUA9VXh7aTpSG/cs3VfZ/M//wCUOCMmVS8j2s4VN3141YXTbp/36xljua+ASffw==}
+  /@slidev/client/0.28.2_vite@2.7.12:
+    resolution: {integrity: sha512-B1cv16jAaoX0LvtQWdv6h5uCJ6YIJ+ZUO2dybT5TUHFfbOZJa6wTFyia1HI9+o0GwajewRzCYdEnaeFDyCH/LA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.4.0
-      '@slidev/parser': 0.28.1
-      '@slidev/types': 0.28.1
+      '@slidev/parser': 0.28.2
+      '@slidev/types': 0.28.2
       '@vueuse/core': 7.5.3_vue@3.2.26
       '@vueuse/head': 0.7.4_vue@3.2.26
       '@vueuse/motion': 2.0.0-beta.9_vue@3.2.26
@@ -226,17 +218,23 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser/0.28.1:
-    resolution: {integrity: sha512-/cGCohK1X1PzfgoLYwNrjKxV6mfmxw7qJKgrOM34LOscAoW5VhWPlZ6Ku6rIAUUWza9GwFjHNI9OtSP3Ccw5Tw==}
+  /@slidev/parser/0.28.2:
+    resolution: {integrity: sha512-fwI6/T0V0PAxMR6QWuIu6JycVhpAWM6rOuzStk3drTrbkBimtxDpbdfwhS5fipf3PkkxkvpmgStcH3Wr0Nodrg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.28.1
+      '@slidev/types': 0.28.2
       js-yaml: 4.1.0
     dev: true
 
   /@slidev/types/0.28.1:
     resolution: {integrity: sha512-4loRNxe9MXVY0lZ3ntgGEItG+5hRgejkRpWfOuqxNQjEKl0HIifsaa9CIBO3EQXuBK/57YJWiz9y5PDYTb0tPA==}
     engines: {node: '>=14.0.0'}
+    dev: false
+
+  /@slidev/types/0.28.2:
+    resolution: {integrity: sha512-A40mGOD1A1B2hTWKDvGQsPEUndbn6VjeKgyeo533s+CZqiKSRQmlagwKtNVDJu3lE3ULM6S7hKer+Vf85FFzBw==}
+    engines: {node: '>=14.0.0'}
+    dev: true
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
@@ -295,7 +293,7 @@ packages:
       '@vue/shared': 3.2.26
       estree-walker: 2.0.2
       magic-string: 0.25.7
-      postcss: 8.4.4
+      postcss: 8.4.5
       source-map: 0.6.1
     dev: true
 
@@ -1910,15 +1908,6 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /postcss/8.4.4:
-    resolution: {integrity: sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.1.32
-      picocolors: 1.0.0
-      source-map-js: 1.0.1
-    dev: true
-
   /postcss/8.4.5:
     resolution: {integrity: sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2216,7 +2205,7 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.3.0
-      '@rollup/pluginutils': 4.1.1
+      '@rollup/pluginutils': 4.1.2
       chokidar: 3.5.2
       debug: 4.3.3
       fast-glob: 3.2.10
