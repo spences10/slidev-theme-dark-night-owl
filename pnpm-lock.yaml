@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@slidev/cli': 0.28.8
-  '@slidev/types': 0.28.7
+  '@slidev/types': 0.28.9
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.2
   theme-vitesse: 0.1.14
 
 dependencies:
-  '@slidev/types': 0.28.7
+  '@slidev/types': 0.28.9
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.2
   theme-vitesse: 0.1.14
@@ -238,15 +238,15 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@slidev/types/0.28.7:
-    resolution: {integrity: sha512-bsul+QZY8VsXwdjsUz8rngbRF6zLcl+YFzuHkzjgK0PEeAHhp+H51kAf1duxeG+7pu4z6wt7fg/2nim0r7f5Kg==}
-    engines: {node: '>=14.0.0'}
-    dev: false
-
   /@slidev/types/0.28.8:
     resolution: {integrity: sha512-CdmB1ctFqw8nZxg4++2rAcUEqPT5d1046Faw7rX+LZ2b1EVX4mFhjvs9CqCOXU/6Onemhz1peh6FXAvjTuMOyw==}
     engines: {node: '>=14.0.0'}
     dev: true
+
+  /@slidev/types/0.28.9:
+    resolution: {integrity: sha512-wS3JT2YG7Dvzx+KuSP+0ido0WnwC2DWifqiFPmkou3SrHK/top/QtEisfhGz2tFSSsHWMuHK7ChF+lfzDYkSIA==}
+    engines: {node: '>=14.0.0'}
+    dev: false
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
