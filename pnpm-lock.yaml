@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@slidev/cli': 0.28.8
+  '@slidev/cli': 0.28.9
   '@slidev/types': 0.28.9
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.2
@@ -14,7 +14,7 @@ dependencies:
   theme-vitesse: 0.1.14
 
 devDependencies:
-  '@slidev/cli': 0.28.8
+  '@slidev/cli': 0.28.9
 
 packages:
 
@@ -127,8 +127,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@slidev/cli/0.28.8:
-    resolution: {integrity: sha512-sgDuYHn7zqeY9I65qCm5xEGK4V+QHEPBCsIPSoW126i1tcki55qnzOwWHIs2/WsdTqK1JXhTtoVEsIRLkkdvUA==}
+  /@slidev/cli/0.28.9:
+    resolution: {integrity: sha512-jBUuFW2+SQaQCVr2BeAC8VPfkLcJw6mIVe8p1JCL2rTjrQ/iEXtfnjz176f3fhEig9+4KUlD4r6OBiaRMNpBNg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -140,9 +140,9 @@ packages:
       '@antfu/utils': 0.5.0
       '@iconify-json/carbon': 1.1.1
       '@iconify-json/ph': 1.1.0
-      '@slidev/client': 0.28.8_vite@2.8.4
-      '@slidev/parser': 0.28.8
-      '@slidev/types': 0.28.8
+      '@slidev/client': 0.28.9_vite@2.8.4
+      '@slidev/parser': 0.28.9
+      '@slidev/types': 0.28.9
       '@vitejs/plugin-vue': 2.2.2_vite@2.8.4+vue@3.2.31
       '@vue/compiler-sfc': 3.2.31
       cli-progress: 3.10.0
@@ -198,13 +198,13 @@ packages:
       - webpack
     dev: true
 
-  /@slidev/client/0.28.8_vite@2.8.4:
-    resolution: {integrity: sha512-W9ZTaLVYcsPkpf5Q5NRKqCQQn8psQMmlvp4XAJaWuD0A7XyL+qu3IYnqSSPdVLUE5/cBu79KHILu5yIOg1RbLA==}
+  /@slidev/client/0.28.9_vite@2.8.4:
+    resolution: {integrity: sha512-WTsN+BeYuAoJ+SPqy6hTScSNxPT6Jt+dRQ6r6iFPprv+1yBfc8c0KOdotx5AizkuLzsmB+RZQrdxE10SfyTleg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.5.0
-      '@slidev/parser': 0.28.8
-      '@slidev/types': 0.28.8
+      '@slidev/parser': 0.28.9
+      '@slidev/types': 0.28.9
       '@vueuse/core': 7.6.2_vue@3.2.31
       '@vueuse/head': 0.7.5_vue@3.2.31
       '@vueuse/motion': 2.0.0-beta.9_vue@3.2.31
@@ -230,23 +230,17 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser/0.28.8:
-    resolution: {integrity: sha512-bFLTNrvcwWCvCoJfE97Phzv9gnbdpDJjYilmBheuDoP3i4YfuiFwe5YbqFpoQk7N/C3jzrKBkuaXoSs3TieBmQ==}
+  /@slidev/parser/0.28.9:
+    resolution: {integrity: sha512-EmWueDYT0A5/zizxGKIYZ4fjrXy5j1/c8ofg+XKcgISsByVZNZxAIplNA9Sh/Z6uHh6vPeSXbxs0GHRELpkbeQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.28.8
+      '@slidev/types': 0.28.9
       js-yaml: 4.1.0
-    dev: true
-
-  /@slidev/types/0.28.8:
-    resolution: {integrity: sha512-CdmB1ctFqw8nZxg4++2rAcUEqPT5d1046Faw7rX+LZ2b1EVX4mFhjvs9CqCOXU/6Onemhz1peh6FXAvjTuMOyw==}
-    engines: {node: '>=14.0.0'}
     dev: true
 
   /@slidev/types/0.28.9:
     resolution: {integrity: sha512-wS3JT2YG7Dvzx+KuSP+0ido0WnwC2DWifqiFPmkou3SrHK/top/QtEisfhGz2tFSSsHWMuHK7ChF+lfzDYkSIA==}
     engines: {node: '>=14.0.0'}
-    dev: false
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
@@ -305,7 +299,7 @@ packages:
       '@vue/shared': 3.2.31
       estree-walker: 2.0.2
       magic-string: 0.25.7
-      postcss: 8.4.5
+      postcss: 8.4.6
       source-map: 0.6.1
     dev: true
 
@@ -1931,15 +1925,6 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /postcss/8.4.5:
-    resolution: {integrity: sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.1
-      picocolors: 1.0.0
-      source-map-js: 1.0.1
-    dev: true
-
   /postcss/8.4.6:
     resolution: {integrity: sha512-OovjwIzs9Te46vlEx7+uXB0PLijpwjXGKXjVGGPIGubGpq7uh5Xgf6D6FiJ/SzJMBosHDp6a2hiXOS97iBXcaA==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2078,11 +2063,6 @@ packages:
 
   /sisteransi/1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
-    dev: true
-
-  /source-map-js/1.0.1:
-    resolution: {integrity: sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /source-map-js/1.0.2:
