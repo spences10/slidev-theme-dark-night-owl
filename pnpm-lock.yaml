@@ -5,13 +5,13 @@ specifiers:
   '@slidev/types': 0.29.2
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.2
-  theme-vitesse: 0.2.1
+  theme-vitesse: 0.2.2
 
 dependencies:
   '@slidev/types': 0.29.2
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.2
-  theme-vitesse: 0.2.1
+  theme-vitesse: 0.2.2
 
 devDependencies:
   '@slidev/cli': 0.29.2
@@ -2149,8 +2149,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /theme-vitesse/0.2.1:
-    resolution: {integrity: sha512-rLRND8c5KvQh8W0BrM+cEKsAL03dv7uMBd0RS3kCEcq6jKii1W2hfjG1TviKv2S2bdwfCCDNuUgc72hIRBmeVw==}
+  /theme-vitesse/0.2.2:
+    resolution: {integrity: sha512-xuo2Ez2tLIWrXNeCEeQQOd287GfzdPy2Q+QV8QX/P76su7lwZecJxbsHNK79KtCuzo59mbNruvhKgy9p0bg2aw==}
     engines: {vscode: ^1.43.0}
     dev: false
 
