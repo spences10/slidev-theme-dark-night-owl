@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@slidev/cli': 0.34.2
+  '@slidev/cli': 0.34.3
   '@slidev/types': 0.34.3
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.3
@@ -14,7 +14,7 @@ dependencies:
   theme-vitesse: 0.5.0
 
 devDependencies:
-  '@slidev/cli': 0.34.2
+  '@slidev/cli': 0.34.3
 
 packages:
 
@@ -58,6 +58,14 @@ packages:
     resolution: {integrity: sha512-rN2Nu70lDIqWrihwlrBlncv94PJrPUi2F91O8vnOEJYpb1qQnG5v8oFiYzfshiSmKzENPKHt7F8eaG5xoaLW4w==}
     dependencies:
       perfect-freehand: 1.0.16
+    dev: true
+
+  /@hedgedoc/markdown-it-task-lists/1.0.4_markdown-it@13.0.1:
+    resolution: {integrity: sha512-L2qzTIxjl2o35DUWLm3oYSMumcMXR74B9KuQ0jMlvOhu3N71TvvySi+zErOvgacQ9cOpYiGW67zvvCtwkbbXAA==}
+    peerDependencies:
+      markdown-it: '>=12'
+    dependencies:
+      markdown-it: 13.0.1
     dev: true
 
   /@iconify-json/carbon/1.1.6:
@@ -129,8 +137,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@slidev/cli/0.34.2:
-    resolution: {integrity: sha512-9Bg7ut1TUwVlH1CikWGKHdUFFC2khPb9s9ZsnH5CDg1p6u5H+YfOhtCVd1UDFEN/JF4PJ8J3iH5Gc9GUjXXztw==}
+  /@slidev/cli/0.34.3:
+    resolution: {integrity: sha512-uQCO/xiqYDPoD8njhzXc0oX0vjIRMjw37EKtFAIwhVw3bFRdVRUOfRjkp5HkIEz5jmbMvrkHwxdsgM4EqQ6pLg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -140,11 +148,12 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.5.2
+      '@hedgedoc/markdown-it-task-lists': 1.0.4_markdown-it@13.0.1
       '@iconify-json/carbon': 1.1.6
       '@iconify-json/ph': 1.1.2
-      '@slidev/client': 0.34.2_vite@2.9.13
-      '@slidev/parser': 0.34.2
-      '@slidev/types': 0.34.2
+      '@slidev/client': 0.34.3_vite@2.9.13
+      '@slidev/parser': 0.34.3
+      '@slidev/types': 0.34.3
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.13+vue@3.2.37
       '@vue/compiler-sfc': 3.2.37
       cli-progress: 3.11.2
@@ -203,13 +212,13 @@ packages:
       - webpack
     dev: true
 
-  /@slidev/client/0.34.2_vite@2.9.13:
-    resolution: {integrity: sha512-tNcFOFne6vykcI57m98C0Bdo0b45m33SOX7w0r4iM3AaympynD/Gtj/xZPMlJfPH/xNTCRndV1BsihasMinQJQ==}
+  /@slidev/client/0.34.3_vite@2.9.13:
+    resolution: {integrity: sha512-9B/fQ4ydrEM2TxwXiwrm6NiGgCJepoltvvlvBKaDzvHIZofDd5wta4vk3vKA5fO2Bs8vcPi6rpPqiehBELYtxw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.5.2
-      '@slidev/parser': 0.34.2
-      '@slidev/types': 0.34.2
+      '@slidev/parser': 0.34.3
+      '@slidev/types': 0.34.3
       '@unocss/reset': 0.42.0
       '@vueuse/core': 8.7.5_vue@3.2.37
       '@vueuse/head': 0.7.6_vue@3.2.37
@@ -241,23 +250,17 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser/0.34.2:
-    resolution: {integrity: sha512-bF80dK+X0Aolc+/tr8T11HuNAORUDibiqzWHppEHWgsOdSCmd9+lSs74bpKw6WIFoxvgV6Ir2dQNm/cAzk5b0Q==}
+  /@slidev/parser/0.34.3:
+    resolution: {integrity: sha512-mCjNuKfpcDii2lpQHTtPRDN3bqwqBa62g2W2j5NCRtj52o0ZeMA9erSF8SlKkq1aJOCvIHrxiQMgfxGGjJ3Kzg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.34.2
+      '@slidev/types': 0.34.3
       js-yaml: 4.1.0
-    dev: true
-
-  /@slidev/types/0.34.2:
-    resolution: {integrity: sha512-TCoSWRaK6HgLEBHpKPpcIplKhKdvgYuc0s1N1nKPj1sUz7XdRfIfjckBtewPIguakUgewlKcEkjxY9MM18p7jg==}
-    engines: {node: '>=14.0.0'}
     dev: true
 
   /@slidev/types/0.34.3:
     resolution: {integrity: sha512-yzjy2eOEL2XjyWai1kbfEF8I53Ue9xXRX+uLxXXPVLg+2G/62/3KBZ9lRPvFctJI/Im1VHK5pUtUSstV1QQZOg==}
     engines: {node: '>=14.0.0'}
-    dev: false
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
