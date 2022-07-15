@@ -4,13 +4,13 @@ specifiers:
   '@slidev/cli': 0.34.3
   '@slidev/types': 0.34.3
   codemirror-theme-vars: 0.1.1
-  prism-theme-vars: 0.2.3
+  prism-theme-vars: 0.2.4
   theme-vitesse: 0.5.0
 
 dependencies:
   '@slidev/types': 0.34.3
   codemirror-theme-vars: 0.1.1
-  prism-theme-vars: 0.2.3
+  prism-theme-vars: 0.2.4
   theme-vitesse: 0.5.0
 
 devDependencies:
@@ -2230,8 +2230,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prism-theme-vars/0.2.3:
-    resolution: {integrity: sha512-lpRg8GWfxu38m4rZwjrvOxeHlmL4tERhe9sTjrC47HMu6uCEch3bLUQVNlISoEq9Z24g5Xm+B7AKdyiKSevktg==}
+  /prism-theme-vars/0.2.4:
+    resolution: {integrity: sha512-B3Pht+GCT87sZph7hMRLlCQXzCM0awW7Rhk08RavpqRW4LEQOeqN0uMG4QCWkul2tr8PB61YAOJGUrEW+1uuJA==}
     dev: false
 
   /prismjs/1.28.0:
