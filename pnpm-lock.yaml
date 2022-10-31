@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@slidev/cli': 0.36.7
+  '@slidev/cli': 0.36.10
   '@slidev/types': 0.36.7
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.4
@@ -14,7 +14,7 @@ dependencies:
   theme-vitesse: 0.6.0
 
 devDependencies:
-  '@slidev/cli': 0.36.7
+  '@slidev/cli': 0.36.10
 
 packages:
 
@@ -283,6 +283,7 @@ packages:
 
   /@hedgedoc/markdown-it-task-lists/1.0.5_markdown-it@13.0.1:
     resolution: {integrity: sha512-l/rJ8tJAZ1Fs0vzQPfap4+YnILWZBxCqtTikjE26Y5hJYY0LY3GJCWU4WXHVIPMJ/0Dm4XbKonXURfLQn5GeZw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       markdown-it: '>=12'
     dependencies:
@@ -355,6 +356,17 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@lillallol/outline-pdf-data-structure/1.0.3:
+    resolution: {integrity: sha512-XlK9dERP2n9afkJ23JyJzpmesLgiOHmhqKuGgeytnT+IVGFdAsYl1wLr2o+byXNAN5fveNbc7CCI6RfBsd5FCw==}
+    dev: true
+
+  /@lillallol/outline-pdf/4.0.0:
+    resolution: {integrity: sha512-tILGNyOdI3ukZfU19TNTDVoS0W1nSPlMxCKAm9FPV4OPL786Ur7e1CRLQZWKJP6uaMQsUqSDBCTzISs6lXWdAQ==}
+    dependencies:
+      '@lillallol/outline-pdf-data-structure': 1.0.3
+      pdf-lib: 1.17.1
     dev: true
 
   /@mdit-vue/plugin-component/0.11.1:
@@ -444,6 +456,18 @@ packages:
     dev: true
     optional: true
 
+  /@pdf-lib/standard-fonts/1.0.0:
+    resolution: {integrity: sha512-hU30BK9IUN/su0Mn9VdlVKsWBS6GyhVfqjwl1FjZN4TxP6cCw0jP2w7V3Hf5uX7M0AZJ16vey9yE0ny7Sa59ZA==}
+    dependencies:
+      pako: 1.0.11
+    dev: true
+
+  /@pdf-lib/upng/1.0.1:
+    resolution: {integrity: sha512-dQK2FUMQtowVP00mtIksrlZhdFXQZPC+taih1q4CvPZ5vqdxR/LKBaFg0oAfzd1GlHZXXSPdQfzQnt+ViGvEIQ==}
+    dependencies:
+      pako: 1.0.11
+    dev: true
+
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
@@ -456,8 +480,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@slidev/cli/0.36.7:
-    resolution: {integrity: sha512-L4JHJMD4dTO82ws0Fo9uAbG66JxUAH7gpbHPNamF4+vcnOQ0AHkE/yACQNqHs0Qy7u2apSRaLFsltPJSzW6Bnw==}
+  /@slidev/cli/0.36.10:
+    resolution: {integrity: sha512-RcKzi7+E8qB/o10cBaS1vqGradyHzKTZevA7hBTiHBFH5oFakJWe6e1CSY7Le7zzmHPLMJ/jYn81sdoRUtUj/A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -470,9 +494,10 @@ packages:
       '@hedgedoc/markdown-it-task-lists': 1.0.5_markdown-it@13.0.1
       '@iconify-json/carbon': 1.1.8
       '@iconify-json/ph': 1.1.2
-      '@slidev/client': 0.36.7_vite@3.1.8
-      '@slidev/parser': 0.36.7
-      '@slidev/types': 0.36.7
+      '@lillallol/outline-pdf': 4.0.0
+      '@slidev/client': 0.36.10_vite@3.1.8
+      '@slidev/parser': 0.36.10
+      '@slidev/types': 0.36.10
       '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.41
       cli-progress: 3.11.2
       codemirror: 5.65.5
@@ -493,6 +518,7 @@ packages:
       monaco-editor: 0.33.0
       nanoid: 4.0.0
       open: 8.4.0
+      pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
       postcss-nested: 6.0.0
       prismjs: 1.29.0
@@ -529,13 +555,13 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/client/0.36.7_vite@3.1.8:
-    resolution: {integrity: sha512-puAZRbpokMaXDiFPcA9W7Njt+XofqFzpaz9LgopNuFDaBvYDKhbmE1ErMZ3ewMF1fZWefQ8WlWJWLhWARFX8Sw==}
+  /@slidev/client/0.36.10_vite@3.1.8:
+    resolution: {integrity: sha512-XOfihlwC7JKyrZ7Qy6QEOezMo+iTRuA+Ykk4TcRI7c9uSWQhetXhMNtz2Ubzz0OFcJ/aE/98DgsyFactBdswbw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.5.2
-      '@slidev/parser': 0.36.7
-      '@slidev/types': 0.36.7
+      '@slidev/parser': 0.36.10
+      '@slidev/types': 0.36.10
       '@unocss/reset': 0.45.29
       '@vueuse/core': 9.3.0_vue@3.2.41
       '@vueuse/head': 0.9.8_vue@3.2.41
@@ -567,17 +593,23 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser/0.36.7:
-    resolution: {integrity: sha512-rkVt9ev64Fmv/2dGhN5UVbKoaRz8R+pvSiLIXUz0pYtNPAU5JUEoEO0mojM99ai9cbnMubZYbkieoq/n772PWA==}
+  /@slidev/parser/0.36.10:
+    resolution: {integrity: sha512-MRzYhAWzjf/OlL5sI5rEP2cgI8gxJpmkS30weisRX3KMm+zuBXhEwn+In/ZZ2J+QXMEYNLBtUm28VIhFSddsiw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.36.7
+      '@slidev/types': 0.36.10
       js-yaml: 4.1.0
+    dev: true
+
+  /@slidev/types/0.36.10:
+    resolution: {integrity: sha512-xznfw1yR6I2naZeWY8zkeMVrWtcYfbnpdh3dvLgvwL6IBUDuolbHsk8W8/xNaen6BOuO4h/JTHuMQBDCMYDRSw==}
+    engines: {node: '>=14.0.0'}
     dev: true
 
   /@slidev/types/0.36.7:
     resolution: {integrity: sha512-GtGPdSx1GsJUNID6Sv26e+YaL6FlTdGhGhdbUFK6DJLAO3SB2OCvjTFZgqjKureJEEniLVBQk94T/FxHIj49LA==}
     engines: {node: '>=14.0.0'}
+    dev: false
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
@@ -2889,6 +2921,10 @@ packages:
       p-limit: 3.1.0
     dev: true
 
+  /pako/1.0.11:
+    resolution: {integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==}
+    dev: true
+
   /parseurl/1.3.3:
     resolution: {integrity: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==}
     engines: {node: '>= 0.8'}
@@ -2916,6 +2952,15 @@ packages:
 
   /pathe/0.3.9:
     resolution: {integrity: sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==}
+    dev: true
+
+  /pdf-lib/1.17.1:
+    resolution: {integrity: sha512-V/mpyJAoTsN4cnP31vc0wfNA1+p20evqqnap0KLoRUN0Yk/p3wN52DOEsL4oBFcLdb76hlpKPtzJIgo67j/XLw==}
+    dependencies:
+      '@pdf-lib/standard-fonts': 1.0.0
+      '@pdf-lib/upng': 1.0.1
+      pako: 1.0.11
+      tslib: 1.14.1
     dev: true
 
   /perfect-debounce/0.1.3:
@@ -3335,6 +3380,10 @@ packages:
   /totalist/3.0.0:
     resolution: {integrity: sha512-eM+pCBxXO/njtF7vdFsHuqb+ElbxqtI4r5EAvk6grfAFyJ6IvWlSkfZ5T9ozC6xWw3Fj1fGoSmrl0gUs46JVIw==}
     engines: {node: '>=6'}
+    dev: true
+
+  /tslib/1.14.1:
+    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
   /tslib/2.4.0:
