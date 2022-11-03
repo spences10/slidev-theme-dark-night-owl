@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@slidev/cli': 0.36.10
-  '@slidev/types': 0.36.7
+  '@slidev/types': 0.36.10
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.4
   theme-vitesse: 0.6.0
 
 dependencies:
-  '@slidev/types': 0.36.7
+  '@slidev/types': 0.36.10
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.4
   theme-vitesse: 0.6.0
@@ -604,12 +604,6 @@ packages:
   /@slidev/types/0.36.10:
     resolution: {integrity: sha512-xznfw1yR6I2naZeWY8zkeMVrWtcYfbnpdh3dvLgvwL6IBUDuolbHsk8W8/xNaen6BOuO4h/JTHuMQBDCMYDRSw==}
     engines: {node: '>=14.0.0'}
-    dev: true
-
-  /@slidev/types/0.36.7:
-    resolution: {integrity: sha512-GtGPdSx1GsJUNID6Sv26e+YaL6FlTdGhGhdbUFK6DJLAO3SB2OCvjTFZgqjKureJEEniLVBQk94T/FxHIj49LA==}
-    engines: {node: '>=14.0.0'}
-    dev: false
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
