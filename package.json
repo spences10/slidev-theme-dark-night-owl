@@ -20,7 +20,7 @@
     "theme-vitesse": "0.6.0"
   },
   "devDependencies": {
-    "@slidev/cli": "0.38.0"
+    "@slidev/cli": "0.38.1"
   },
   "engines": {
     "node": ">=14.0.0",
